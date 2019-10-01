@@ -3,19 +3,19 @@
 # YOUR CODE HERE
 
 
-# def is_even(num):
-#     return num % 2 == 0
+def is_even(num):
+    return num % 2 == 0
 
 
-# print(is_even(8))
+print(is_even(7))
 
 # Read a number from the keyboard
-# num = input("Enter a number: ")
-# num = int(num)
-# if num % 2 == 0:
-#   print("Even!")
-# else:
-#   print("Odd")
+num = input("Enter a number: ")
+num = int(num)
+if num % 2 == 0:
+  print("Even!")
+else:
+  print("Odd")
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 

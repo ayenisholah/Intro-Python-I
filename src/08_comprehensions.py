@@ -17,18 +17,18 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
-# y = [num**3 for num in range(10)]
+y = [num**3 for num in range(10)]
 
-# print(y)
+print(y)
 
 # Write a list comprehension to produce the uppercase version of all the
 # elements in array a. Hint: "foo".upper() is "FOO".
 
 a = ["foo", "bar", "baz"]
 
-# y = [element.upper() for element in a]
+y = [element.upper() for element in a]
 
-# print(y)
+print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.

@@ -19,6 +19,19 @@ and does the following:
    Then exit the program.
 """
 
+
 import sys
 import calendar
-from datetime import datetime
+import datetime
+month = input('Enter a numeric representation of month (M): ')
+try:
+    value_month = int(month)
+    if value_month:
+        year = input('Enter a year')
+        try:
+            year_value = int(year)
+            print(datetime.datetime(year_value, value_month, 7).strftime("%B - %Y"))
+        except ValueError:
+            print(datetime.datetime(2017, value_month, 7).strftime("%B"))
+except ValueError:
+    print(datetime.datetime.today().strftime("%B"))
